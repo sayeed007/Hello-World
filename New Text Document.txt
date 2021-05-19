@@ -1,3 +1,30 @@
 Step 1:
-git init
+	git init => initialize Git on that folder
+
 Step 2:
+	ls => list the files in our current working directory
+
+Step 3:
+	git status => Git status to see if it is a part of our repo
+
+Step 4: 
+	git add index.html => add it to the Staging Environment[Staged files are files that are ready to be committed to the repository you are working on.]
+
+Step 5:
+	git add --all => Added all the file in the direcory into git
+
+Step 6:
+	git commit -m <"Message"> => The commit command performs a commit, and the -m "message" adds a message.
+
+Step 7:
+	git status --short => use the --short option to see the changes in a more compact way
+	In OutPut........
+	[	?? - Untracked files
+		A - Files added to stage
+		M - Modified files
+		D - Deleted Files   ]
+
+Step 8:
+	git log => To view the history of commits for a repository, you can use the log command
+
+WORKING WITH GIT BRANCHES....
