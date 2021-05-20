@@ -27,4 +27,139 @@ Step 7:
 Step 8:
 	git log => To view the history of commits for a repository, you can use the log command
 
-WORKING WITH GIT BRANCHES....
+WORKING WITH GIT BRANCHES................
+
+Step 9:
+	git branch <branch_name> => we created a new branch called "<branch_name>"
+
+Step  10:
+	git branch => List of git branches
+
+Step 11:
+	git checkout <branch-name> =>	Switched to branch
+	'''the * beside master specifies that we are currently on that branch.
+
+Switching Between Branches.............
+Step 12:
+	git checkout -b <new-branch name> -m "New_Branch_Created" => Using the -b option on checkout will create a new branch, and move to it, if it does not exist
+
+Git Branch Merge.......................
+Step 12: [Marging change to main ripo]
+	=> First go to main branch[*master]
+	=> git merge <changed_branch_name>
+
+Git Delete Branch..................
+Step 13:
+	git branch -d <branch_name>
+
+.........................................
+.........................................
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+Git GitHub Getting Started...............
+Step 14:
+	//Creating Remote Git
+	git remote add origin <"https://github.com/sayeed007/hello-world.git"> => git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo
+
+Step 15:
+	//Uploading our File
+	git push --set-upstream origin master => we are going to push our master branch to the origin url, and set it as the default remote branch
+
+Git Fetch => fetch gets all the change history of a tracked branch/repo...............
+Step 16:
+	git fetch origin => on your local Git, and fetch updates to see what has changed on GitHub
+
+Step 17;
+	git log origin/master => double check by viewing the log
+
+Step 18:
+	git diff origin/master => we can also verify by showing the differences between our local master and origin/master
+
+Step 19:
+	git merge origin/master => we can merge our current branch (master) with origin/master
+
+Step 20: [Replace of 16-20]
+	git pull origin => pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on
+
+Git Push to GitHub................................
+Step 21:
+	% Edit Necessary File
+	%Commit the change .... Then
+	git push origin
+
+Pulling a Branch from GitHub........................
+Step 22:
+	git pull => pull from our GitHub repository again so that our code is up-to-date
+
+
+Step 23:
+	git branch -a => All Branch list inside the git
+	git branch -r => All remote branches only
+
+Step 24:
+	git checkout html-skeleton => movin into remote branch
+
+Push a Branch to GitHub.............................
+Step 25:
+	git checkout -b update-readme => creating a branch named "update-readme"
+
+Step 26: [after changing README.md]
+	# Add the update to git => git add README.md
+	# Commit the change => git commit -m "message"
+	then..............
+	git push origin update-readme => push the update-readme to github
+
+Host Your Page on GitHub............................
+Step 27:
+	# After creating new repository[name mmust be github_username.github.io]
+	git remote add <gh-page> <repository_link> => add page to git repository with <gh-page : specific> name
+Step 28:
+	#master branch, then push the master branch to the new remote
+	git push gh-page master => uploading file to page repository
+	
+
+Step 29:
+
+Step 30:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
