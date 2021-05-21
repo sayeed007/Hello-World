@@ -119,13 +119,25 @@ Step 28:
 	#master branch, then push the master branch to the new remote
 	git push gh-page master => uploading file to page repository
 	
-
+Fork others code into my account.................................
 Step 29:
+	GO to the desired git page and click fork button.
+	then we got the copy of that code or repository
 
+Git Clone From GitHub......................................
 Step 30:
+	Move back to the original repository, 
+	and click the green "Code" button to get the URL to clone...then
+	git clone <URL> => clone the url into our PC directory
+	git clone <URL> <new_name> => clone the url into our PC directory with new_name folder
 
+Configuring Remotes......................................
+Step 31:
+	git remote -v => see how the remotes of this Git is set up
 
-
+Step 32:
+	git remote rename origin upstream => Rename the Remote Origin
+	
 
 
 
